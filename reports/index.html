@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FrontEndTests" class="navigator-link">
+              <span class="suite-name border-failed">FrontEndTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FrontEndTests" class="navigator-link ">
+                    <span>E:\b2techProj\src\test\Suites\FrontEndTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FrontEndTests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FrontEndTests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FrontEndTests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FrontEndTests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FrontEndTests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FrontEndTests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FrontEndTests" class="hide-methods failed suite-FrontEndTests"> (hide)</a> <!-- hide-methods failed suite-FrontEndTests -->
+                      <a href="#" panel-name="suite-FrontEndTests" class="show-methods failed suite-FrontEndTests"> (show)</a> <!-- show-methods failed suite-FrontEndTests -->
+                    </span>
+                    <div class="method-list-content failed suite-FrontEndTests">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="LoginTest" class="method navigator-link" hash-for-method="checkIfLoginWorksCorrectly">checkIfLoginWorksCorrectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FrontEndTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FrontEndTests" class="hide-methods passed suite-FrontEndTests"> (hide)</a> <!-- hide-methods passed suite-FrontEndTests -->
+                      <a href="#" panel-name="suite-FrontEndTests" class="show-methods passed suite-FrontEndTests"> (show)</a> <!-- show-methods passed suite-FrontEndTests -->
+                    </span>
+                    <div class="method-list-content passed suite-FrontEndTests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="LoginTest" class="method navigator-link" hash-for-method="checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible">checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="LoginTest" class="method navigator-link" hash-for-method="checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible">checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="LoginTest" class="method navigator-link" hash-for-method="checkIfLoginWithEmptyPasswordIsNotPossible">checkIfLoginWithEmptyPasswordIsNotPossible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="LoginTest" class="method navigator-link" hash-for-method="checkIfLoginWithEmptyPhoneNumberIsNotPossible">checkIfLoginWithEmptyPhoneNumberIsNotPossible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FrontEndTests" title="DashboardTest" class="method navigator-link" hash-for-method="getAllFittingBets">getAllFittingBets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FrontEndTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FrontEndTests" class="panel FrontEndTests">
+          <div class="suite-FrontEndTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfLoginWorksCorrectly">
+                  </a> <!-- checkIfLoginWorksCorrectly -->
+                  <span class="method-name">checkIfLoginWorksCorrectly</span>
+                  <div class="stack-trace">org.assertj.core.error.AssertJMultipleFailuresError: 
+Multiple Failures (1 failure)
+-- failure 1 --
+expected: false
+ but was: true
+at LoginTest.checkIfLoginWorksCorrectly(LoginTest.java:58)
+	at LoginTest.checkIfLoginWorksCorrectly(LoginTest.java:61)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrontEndTests-class-failed -->
+          <div class="suite-FrontEndTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible">
+                  </a> <!-- checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible -->
+                  <span class="method-name">checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible">
+                  </a> <!-- checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible -->
+                  <span class="method-name">checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfLoginWithEmptyPasswordIsNotPossible">
+                  </a> <!-- checkIfLoginWithEmptyPasswordIsNotPossible -->
+                  <span class="method-name">checkIfLoginWithEmptyPasswordIsNotPossible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfLoginWithEmptyPhoneNumberIsNotPossible">
+                  </a> <!-- checkIfLoginWithEmptyPhoneNumberIsNotPossible -->
+                  <span class="method-name">checkIfLoginWithEmptyPhoneNumberIsNotPossible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrontEndTests-class-passed -->
+          <div class="suite-FrontEndTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllFittingBets">
+                  </a> <!-- getAllFittingBets -->
+                  <span class="method-name">getAllFittingBets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrontEndTests-class-passed -->
+        </div> <!-- panel FrontEndTests -->
+        <div panel-name="test-xml-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\b2techProj\src\test\Suites\FrontEndTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;FrontEndTests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;FrontEndTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LoginTest&quot;/&gt;
+      &lt;class name=&quot;DashboardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FrontEndTests --&gt;
+&lt;/suite&gt; &lt;!-- FrontEndTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FrontEndTests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FrontEndTests');
+function tableData_FrontEndTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkIfLoginWithEmptyPasswordIsNotPossible')
+data.setCell(0, 2, 'LoginTest')
+data.setCell(0, 3, 5704);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkIfLoginWorksCorrectly')
+data.setCell(1, 2, 'LoginTest')
+data.setCell(1, 3, 5590);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible')
+data.setCell(2, 2, 'LoginTest')
+data.setCell(2, 3, 4561);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible')
+data.setCell(3, 2, 'LoginTest')
+data.setCell(3, 3, 4561);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAllFittingBets')
+data.setCell(4, 2, 'DashboardTest')
+data.setCell(4, 3, 4499);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkIfLoginWithEmptyPhoneNumberIsNotPossible')
+data.setCell(5, 2, 'LoginTest')
+data.setCell(5, 3, 4317);
+window.suiteTableData['FrontEndTests']= { tableData: data, tableDiv: 'times-div-FrontEndTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-FrontEndTests">
+              </div> <!-- times-div-FrontEndTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible</span>
+                <span class="method-start">1374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible</span>
+                <span class="method-start">1374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">6030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">6030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkIfLoginWithEmptyPhoneNumberIsNotPossible</span>
+                <span class="method-start">6954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkIfLoginWithEmptyPasswordIsNotPossible</span>
+                <span class="method-start">6954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">11349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkIfLoginWorksCorrectly</span>
+                <span class="method-start">12185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12658 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeWholeScope</span>
+                <span class="method-start">12737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllFittingBets</span>
+                <span class="method-start">13588 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17776 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18088 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

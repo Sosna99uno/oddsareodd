@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-15T14:50:02 CEST" name="FrontEndTests" finished-at="2024-10-15T14:50:21 CEST" duration-ms="18202">
+    <groups>
+    </groups>
+    <test started-at="2024-10-15T14:50:02 CEST" name="FrontEndTests" finished-at="2024-10-15T14:50:21 CEST" duration-ms="18202">
+      <class name="DashboardTest">
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:DashboardTest@34a875b3]" started-at="2024-10-15T14:50:15 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:16 CEST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method signature="getAllFittingBets()[pri:0, instance:DashboardTest@34a875b3]" started-at="2024-10-15T14:50:16 CEST" name="getAllFittingBets" finished-at="2024-10-15T14:50:21 CEST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllFittingBets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DashboardTest@34a875b3]" started-at="2024-10-15T14:50:21 CEST" name="tearDown" finished-at="2024-10-15T14:50:21 CEST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DashboardTest -->
+      <class name="LoginTest">
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:02 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:04 CEST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:02 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:04 CEST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method signature="checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:04 CEST" name="checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible" finished-at="2024-10-15T14:50:08 CEST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginWithEmptyPasswordAndRandomPhoneNumberIsNotPossible -->
+        <test-method signature="checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:04 CEST" name="checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible" finished-at="2024-10-15T14:50:08 CEST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginWithEmptyPasswordAndEmptyPhoneNumberIsNotPossible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:08 CEST" name="tearDown" finished-at="2024-10-15T14:50:08 CEST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:08 CEST" name="tearDown" finished-at="2024-10-15T14:50:08 CEST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:08 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:09 CEST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:08 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:09 CEST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method signature="checkIfLoginWithEmptyPhoneNumberIsNotPossible()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:09 CEST" name="checkIfLoginWithEmptyPhoneNumberIsNotPossible" finished-at="2024-10-15T14:50:14 CEST" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginWithEmptyPhoneNumberIsNotPossible -->
+        <test-method signature="checkIfLoginWithEmptyPasswordIsNotPossible()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:09 CEST" name="checkIfLoginWithEmptyPasswordIsNotPossible" finished-at="2024-10-15T14:50:15 CEST" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginWithEmptyPasswordIsNotPossible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:14 CEST" name="tearDown" finished-at="2024-10-15T14:50:14 CEST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeWholeScope()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:14 CEST" name="beforeWholeScope" finished-at="2024-10-15T14:50:15 CEST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWholeScope -->
+        <test-method signature="checkIfLoginWorksCorrectly()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:15 CEST" name="checkIfLoginWorksCorrectly" finished-at="2024-10-15T14:50:20 CEST" duration-ms="5590" status="FAIL">
+          <exception class="org.assertj.core.error.AssertJMultipleFailuresError">
+            <message>
+              <![CDATA[
+Multiple Failures (1 failure)
+-- failure 1 --
+expected: false
+ but was: true
+at LoginTest.checkIfLoginWorksCorrectly(LoginTest.java:58)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.assertj.core.error.AssertJMultipleFailuresError: 
+Multiple Failures (1 failure)
+-- failure 1 --
+expected: false
+ but was: true
+at LoginTest.checkIfLoginWorksCorrectly(LoginTest.java:58)
+at LoginTest.checkIfLoginWorksCorrectly(LoginTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.assertj.core.error.AssertJMultipleFailuresError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginWorksCorrectly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:15 CEST" name="tearDown" finished-at="2024-10-15T14:50:15 CEST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@5dcb4f5f]" started-at="2024-10-15T14:50:20 CEST" name="tearDown" finished-at="2024-10-15T14:50:20 CEST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest -->
+    </test> <!-- FrontEndTests -->
+  </suite> <!-- FrontEndTests -->
+</testng-results>
